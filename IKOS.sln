@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKOS", "IKOS\IKOS.csproj", "{59F25631-8E74-4DC8-A0A2-A39F0480B5CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59F25631-8E74-4DC8-A0A2-A39F0480B5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F25631-8E74-4DC8-A0A2-A39F0480B5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F25631-8E74-4DC8-A0A2-A39F0480B5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F25631-8E74-4DC8-A0A2-A39F0480B5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35C7F2ED-B212-4371-ABCA-34DD0B9364CD}
+	EndGlobalSection
+EndGlobal

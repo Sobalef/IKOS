@@ -1,0 +1,24 @@
+﻿<Window x:Class="IKOS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IKOS"
+        mc:Ignorable="d"
+        Title="IKOS" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="0,10,0,304" Grid.RowSpan="2">
+            <TextBlock Text="IKOS Администрация" FontSize="30" HorizontalAlignment="Center" Margin="252,0,252,10"></TextBlock>
+            <Grid Background="#00bfff" Panel.ZIndex="-2" Margin="0,-10,0,10">
+                <Image Source="Resources/шапка.png" Stretch="Uniform" Margin="0,0,640,0"/>
+            </Grid>
+            <Grid Background="#00ff00" Panel.ZIndex="1" Margin="0,380,0,-333"></Grid>
+
+        </Grid>
+    </Grid>
+</Window>
